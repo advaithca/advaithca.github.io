@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.909b32fa.css",
+    "main.js": "/static/js/main.8ec4ab12.js",
+    "static/media/resume.png": "/static/media/resume.858667a75b945d7dc218.png",
+    "static/media/MaterialIcons-Regular.eot": "/static/media/MaterialIcons-Regular.4674f8ded773cb03e824.eot",
+    "static/media/MaterialIcons-Regular.ttf": "/static/media/MaterialIcons-Regular.5e7382c63da0098d634a.ttf",
+    "static/media/MaterialIcons-Regular.woff": "/static/media/MaterialIcons-Regular.83bebaf37c09c7e1c3ee.woff",
+    "static/media/MaterialIcons-Regular.woff2": "/static/media/MaterialIcons-Regular.cff684e59ffb052d72cb.woff2",
+    "static/media/Flask_logo.svg": "/static/media/Flask_logo.d2e30c5ac79a81cd4965813d244494d3.svg",
+    "static/media/Python-logo-notext.svg": "/static/media/Python-logo-notext.af4b6d45f652824e97cdcd305b065579.svg",
+    "static/media/Tensorflow_logo.svg": "/static/media/Tensorflow_logo.e46014668bc79635064cbd5c6c0fdb96.svg",
+    "static/media/NumPy_logo_2020.svg": "/static/media/NumPy_logo_2020.73023c336dccb83f24cb6300752a501d.svg",
+    "static/media/github.svg": "/static/media/github.e3945483fdae58a754fb68f359411f75.svg",
+    "static/media/PyTorch_logo_black.svg": "/static/media/PyTorch_logo_black.16f70172f1067a30107cbc9a09dc119c.svg",
+    "static/media/Pandas_logo.svg": "/static/media/Pandas_logo.58bc29defd2fa9ef6079e14589f135a8.svg",
+    "static/media/ISO_C++_Logo.svg": "/static/media/ISO_C++_Logo.30cd71dc0624ba73acf8d9f9204f66bb.svg",
+    "static/media/C_Programming_Language.svg": "/static/media/C_Programming_Language.22ea43c1dab982d3729c945857896336.svg",
+    "static/media/linkedinLogo.svg": "/static/media/linkedinLogo.a0bd228bdb07441e0d4c9501160b9e22.svg",
+    "index.html": "/index.html",
+    "static/media/React-icon.svg": "/static/media/React-icon.1afcfd3ec0ce090383fae6d48b7668f9.svg",
+    "main.909b32fa.css.map": "/static/css/main.909b32fa.css.map",
+    "main.8ec4ab12.js.map": "/static/js/main.8ec4ab12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.909b32fa.css",
+    "static/js/main.8ec4ab12.js"
+  ]
+}
