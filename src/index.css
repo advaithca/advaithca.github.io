@@ -4,7 +4,8 @@
 html {
   scroll-behavior: smooth;
   background-color: #282a36;
-  width: 1100px;
+  min-width: 1100px;
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -13,7 +14,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #282a36;
   height: 100%;
-  width: 1100px;
+  min-width: 1100px;
+  max-width: 100%;
 }
 
 code {
