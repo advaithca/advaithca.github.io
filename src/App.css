@@ -273,8 +273,8 @@
   background-color: #282a36;
   display: block;
   margin: auto;
-  min-width: 100%;
-  max-width: 1100px;
+  min-width: 1100px;
+  max-width: 100%;
 }
 
 .Resume {
