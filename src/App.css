@@ -298,6 +298,7 @@
 
 .Resume::-webkit-scrollbar {
   width: 10px;
+  border-radius: 8px;
 }
 
 .Resume::-webkit-scrollbar-track {
@@ -476,4 +477,138 @@
   align-items: center;
   justify-content: center;
   display: inline-flex;
+}
+
+.Projects {
+  width: 1100px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.Projects--header{
+  font-size: xx-large;
+  color: #f8f8f2;
+  font-weight: 800;
+  font-size: 100px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.Project--container {
+  width: 667px;
+  margin: auto;
+}
+.Projects--horizontal {
+  overflow-x: scroll;
+  /* align-items: center;
+  margin: auto;
+  justify-content: center; */
+  /* width: min-content; */
+  
+  /* cursor: grab; */
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: repeat(6, calc(70% - var(--gutter) * 2));
+  grid-template-rows: minmax(150px, 1fr);
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+
+  padding: 0;
+
+}
+
+.Projects--horizontal {
+    -webkit-overflow-scrolling: touch;
+}
+
+.Projects--horizontal::-webkit-scrollbar {
+  /* width: 10px; */
+  height: 10px;
+  cursor: grab;
+}
+
+.Projects--horizontal::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(98, 114, 164, 0.3);
+}
+ 
+.Projects--horizontal::-webkit-scrollbar-thumb {
+  background-color: #282a36;
+  outline: 2px solid #6272a4;
+  border-radius: 8px;
+}
+
+.Project--item {
+  scroll-snap-align: center;
+  flex-direction: column;
+  margin: 10px 5px 10px 5px;
+  width: fit-content;
+  display: flex;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  background: #282a36;
+  border-radius: 8px;
+  color: #f2f2f2;
+  
+  /* justify-content: center; */
+  /* height: max-content; */
+}
+
+:root {
+  --gutter: 20px;
+}
+
+.Project--name {
+  padding: 4px;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  font-family: IBM Plex Mono;
+  border: 0px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #ff79c6;
+}
+
+.Project--preview {
+  margin: auto;
+
+}
+.Project--preview > img{
+  height: 300px;
+  border-radius: 8px;
+  border: 3px solid #ff79c6;
+}
+
+.Project--descr {
+  padding: 3px;
+  font-size: 1vw;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.Project--duration {
+  padding: 2px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: oblique;
+  border: 0px;
+  border-bottom: 1px;
+  border-style: dotted;
+  border-color: #282a36;
+}
+
+.Project--link {
+  padding: 2px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: oblique;
+  border: 0px;
+  border-bottom: 1px;
+  border-style: dotted;
+  border-color: #282a36;
 }

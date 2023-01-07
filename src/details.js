@@ -48,8 +48,52 @@ const workExperience = [
     }
 ]
 
+const projects = [
+    {
+        'name': "Text Summarization",
+        'preview': "./images/text-summarization.png",
+        'from': "Dec 2021",
+        'to': "April 2022",
+        'link': "https://github.com/abhinav-TB/som_summarizer",
+        'description': "Implementation of a text summarizer using Self Organizing Maps. It was published in the International Journal of Advance Computational Engineering and Networking."
+    },
+    {
+        'name': "Price prediction",
+        'preview': "./images/car-price-prediction.png",
+        'from': "Dec 2021",
+        'to': "Jan 2022",
+        'link': "https://github.com/advaithca/vehicle-price-prediction",
+        'description': "A Machine Learning project, implements a Regression model that predicts the price of used cars, given the year of the model, and kilometres driven."
+    },
+    {
+        'name': "Sorting Visualizer",
+        'preview': "./images/SS1.png",
+        'from': "April 2022",
+        'to': "May 2022",
+        'link': "https://github.com/advaithca/AlgoVisualizer",
+        'description': "Visualizes a bunch of sorting algorithms. Uses OpenGL bindings for Python for the animation. Does the sorting on a randomly generated numpy Array."
+    },
+    {
+        'name': "LessThanGreaterThan50k",
+        'preview': "./images/lessthan.jpg",
+        'from': "Jan 2022",
+        'to': "March 2022",
+        'link': "https://github.com/advaithca/lessThanGreaterThan50k",
+        'description': "A data mining project to predict whether the person makes less than or greater than 50k per year. It was done as an academic project to explore data pre-processing methods."
+    },
+    {
+        'name': "Face Blocker",
+        'preview': "./images/faceBlocker.png",
+        'from': "May 2022",
+        'to': "May 2022",
+        'link': "https://github.com/advaithca/Face-Blocker",
+        'description': "A Face detection project, uses MTCNN to detect faces and blocks them. Built a Web App for it using Streamlit. Done to familiarise working of MTCNN."
+    }
+]
+
 export const details = {
     'About':about,
     'Education': education,
-    'WorkExperience': workExperience
+    'WorkExperience': workExperience,
+    'Projects': projects
 }
