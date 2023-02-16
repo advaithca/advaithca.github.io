@@ -8,7 +8,7 @@ export default function NavBar(){
 
     return(
         <nav className="flex items-center justify-between flex-wrap bg-dracula-nosferatu p-6 sticky top-0 z-10">
-            <div className="flex items-center flex-shrink-0 text-white lg:mr-6 md:mr-4 sm:mr-2">
+            <div className="flex items-center flex-shrink-0 text-white lg:mr-6 md:mr-4 sm:mr-0">
                 <img className="mr-5" src={logo} style={{'width': '60px', 'height':'54px'}} alt="Mark of the beast"/>
                 <span className="font-semibold text-3xl tracking-tight font-mono"><a href="#Home">Advaith C A</a></span>
             </div>
