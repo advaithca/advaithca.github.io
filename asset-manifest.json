@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f00d55b4.css",
-    "main.js": "/static/js/main.f1e31006.js",
+    "main.js": "/static/js/main.d7a7e0ef.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/markofthebeast_transparent.png": "/static/media/markofthebeast_transparent.b5ea4a8a24d57c696e65.png",
     "static/media/Flask_logo.svg": "/static/media/Flask_logo.d2e30c5ac79a81cd4965813d244494d3.svg",
@@ -17,11 +17,11 @@
     "index.html": "/index.html",
     "static/media/React-icon.svg": "/static/media/React-icon.1afcfd3ec0ce090383fae6d48b7668f9.svg",
     "main.f00d55b4.css.map": "/static/css/main.f00d55b4.css.map",
-    "main.f1e31006.js.map": "/static/js/main.f1e31006.js.map",
+    "main.d7a7e0ef.js.map": "/static/js/main.d7a7e0ef.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f00d55b4.css",
-    "static/js/main.f1e31006.js"
+    "static/js/main.d7a7e0ef.js"
   ]
 }
