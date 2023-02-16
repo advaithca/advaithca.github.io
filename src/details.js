@@ -1,12 +1,3 @@
-const about = {
-    'name': "Advaith C A",
-    'Age' : 20,
-    'Nationality': "Indian",
-    'Sex' : "Male",
-    'picture': "./images/AdvaithCA.jpg",
-    'tagline': 'A passionate Computer Engineer, who is a great team player with great communication skills looking to contribute to organizational goals.'
-}
-
 const education = [
     {
         'name': 'Bachelor of Technology in Computer Science',
@@ -92,7 +83,6 @@ const projects = [
 ]
 
 export const details = {
-    'About':about,
     'Education': education,
     'WorkExperience': workExperience,
     'Projects': projects

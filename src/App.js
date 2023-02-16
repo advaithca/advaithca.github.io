@@ -1,21 +1,39 @@
 import './App.css';
+import { useState, useEffect } from "react";
+
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Education from './components/Education';
-import WorkExperience from './components/WorkExperience';
-import Footer from './components/Footer';
+import WorkEx from './components/WorkEx';
 import Projects from './components/Projects';
-
-import { details } from './details';
+import Footer from './components/Footer';
 
 function App() {
+  const [data, setData] = useState({})
+  const [projectData, setProjectData] = useState([])
+
+  useEffect(()=>{
+      fetch("https://api.github.com/users/advaithca")
+          .then(res=>res.json())
+          .then(newData=>setData(newData))
+
+      fetch("https://api.github.com/users/advaithca/repos")
+          .then(res2=>res2.json())
+          .then(newData2=>setProjectData(newData2))
+  },[])
+  console.log(projectData)
   return (
-    <div className="App">
+    <div className="App scroll-smooth" id='Home'>
       <NavBar />
-      <About name={details.About.name} picture={details.About.picture} purpose={details.About.tagline}/>
-      <Education EdDetails={details.Education}/>
-      <WorkExperience WorkDetails={details.WorkExperience}/>
-      <Projects projectDeets={details.Projects}/>
+      <About
+        avatar_url={data.avatar_url}
+        bio={data.bio}
+      />
+      <Education/>
+      <WorkEx />
+      <Projects 
+        contents={projectData}
+      />
       <Footer />
     </div>
   );

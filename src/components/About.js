@@ -1,38 +1,36 @@
 import React from "react";
-import { useState } from "react";
-import Resume from "./images/resume.png";
-import WorkedWith from "./WorkedWith";
+import TechStack from "./TechStack";
 
 export default function About(props){
-    const [resume, setResume] = useState(false)
-
-    function clicker(){
-        setResume((previous)=>(!previous))
-    }
-    return (
-        <div classaName="Main">
-            <div className="About" id="About">
-                <div className="About--col1">
-                    <div className="About--Name">
-                        {props.name}
-                    </div>
-                    <div className="About--purpose">
-                        {props.purpose}
-                    </div>
-                    <button onClick={clicker}>
-                    {(resume&&"Un-see the Resume") || (!resume&&"See my Resume")}
-                    </button>
+    return(
+        <div className="items-center justify-center m-auto" id="About">
+            <div className="container items-center justify-center lg:flex sm:block m-auto px-4  pt-20 gap-6 grid-cols-2 w-3/4 lg:columns-2 columns-1 hover:drop-shadow-2xl">
+                <div className="w-full items-center justify-center mx-auto">
+                    <img src={props.avatar_url} className="rounded-full border-4 border-dracula-red-500 shadow-lg lg:w-max" alt="profile"/>
                 </div>
-                <div className="circular-image">
-                    <img src={props.picture} className="Profile--image" alt="Advaith's profile"/>
+                <div className="w-full items-center m-auto text-left lg:text-l text-dracula-vonCount-50 font-bold">
+                    <p className="m-auto md:mt-5 sm:mt-5">
+                        {props.bio}
+                    </p>
+                    <a href="assets/Resume.pdf" download>
+                        <button 
+                            class="mt-5 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm 
+                                    font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-dracula-red via-dracula-pink 
+                                    to-dracula-yellow group-hover:from-red-200 group-hover:via-drracula-red 
+                                    group-hover:to-dracula-pink dark:text-white dark:hover:text-dracula-dark-900 
+                                    focus:ring-4 focus:outline-none focus:ring-dracula-red-100 dark:focus:ring-dracula-red-400"
+                        >
+                            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 
+                                        bg-dracula-cullen dark:bg-dracula-dark-900 rounded-md group-hover:bg-opacity-0">
+                                Download My Resume
+                            </span>
+                        </button>
+                    </a>
                 </div>
             </div>
-            {
-                resume && <div className="Resume">
-                            <img src={Resume} className='Resume--img' alt="resume"/>
-                          </div>
-            }
-            <WorkedWith />
+            <div className="w-3/4 items-center justify-center m-auto mt-8">
+                <TechStack />
+            </div>
         </div>
     )
 }
