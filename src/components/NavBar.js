@@ -16,7 +16,7 @@ export default function NavBar(){
                 <button id="menu-button" className="flex items-center px-3 py-2 cursor-pointer  border rounded text-dracula-cullen border-dracula-dark hover:text-dracula-cullen-400 hover:border-dracula-buffy"
                         onClick={() => setNavbarOpen(!navbarOpen)}
                     >
-                    <svg className="h-6 w-6 cursor-pointer md:hidden block" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                    <svg className="h-6 w-6 cursor-pointer lg:hidden block" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                 </button>
             </div>
             <div className={"w-full block flex-grow lg:flex lg:items-center lg:w-auto" + (navbarOpen ? "" : " hidden")} id="menu">
