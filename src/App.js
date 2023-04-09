@@ -26,7 +26,6 @@ function App() {
     <div className="App scroll-smooth" id='Home'>
       <NavBar />
       <About
-        avatar_url={data.avatar_url}
         bio={data.bio}
       />
       <Education/>

@@ -1,12 +1,13 @@
 import React from "react";
 import TechStack from "./TechStack";
+import image from './images/AdvaithCA.jpg';
 
 export default function About(props){
     return(
         <div className="items-center justify-center m-auto" id="About">
             <div className="container items-center justify-center lg:flex sm:block m-auto px-4  pt-20 gap-6 grid-cols-2 w-3/4 lg:columns-2 columns-1 hover:drop-shadow-2xl">
                 <div className="w-full items-center justify-center mx-auto">
-                    <img src={props.avatar_url} className="rounded-full border-4 border-dracula-red-500 shadow-lg lg:w-max" alt="profile"/>
+                    <img src={image} className="rounded-full border-4 border-dracula-red-500 shadow-lg lg:w-max" alt="profile"/>
                 </div>
                 <div className="w-full items-center m-auto text-left lg:text-l text-dracula-vonCount-50 font-bold">
                     <p className="m-auto md:mt-5 sm:mt-5">
