@@ -4,7 +4,7 @@ const education = [
         'institution': 'Cochin University of Science and Technology',
         'from': 'August 2019',
         'to': 'June 2023',
-        'remarks': 'CGPA till 7th Semester: 9.44'
+        'remarks': 'CGPA: 9.48'
     },
     {
         'name': 'CBSE 12th Standard (AISSCE)',
