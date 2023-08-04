@@ -1,5 +1,12 @@
 const education = [
     {
+        'name': 'Master of Technology in Remote Sensing and GIS',
+        'institution': 'Indian Institute of Remote Sensing',
+        'from': 'August 2023',
+        'to': 'June 2025',
+        'remarks': 'Specializing in Satellite Image Analysis and Photogrammetry'
+    },
+    {
         'name': 'Bachelor of Technology in Computer Science',
         'institution': 'Cochin University of Science and Technology',
         'from': 'August 2019',
@@ -28,7 +35,7 @@ const workExperience = [
         'company': 'iHub-Data, IIIT-H',
         'from': 'October 2022',
         'to': 'Present',
-        'description': "Working as a Project Intern in machine learning projects. Creating and training machine learning models, and RESTful APIs."
+        'description': "Working as a Project Intern in machine learning projects. Creating and training machine learning models, and RESTful APIs. Also working on automation of Report Creation and Visualization of data."
     },
     {
         'position': 'Intern',

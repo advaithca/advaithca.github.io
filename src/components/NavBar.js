@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./images/markofthebeast_transparent.png";
 import githubLogo from "./images/github.svg";
 import linkedinLogo from "./images/linkedinLogo.svg";
-
+import instagramLogo from "./images/instagram.svg";
 export default function NavBar(){
     const [navbarOpen, setNavbarOpen] = React.useState(false);
 
@@ -36,6 +36,9 @@ export default function NavBar(){
                     <a href="mailto:advaith29042002@gmail.com" className="lg:mx-5 block mt-4 lg:inline-block lg:mt-0 text-dracula-cullen border-dracula-buffy hover:text-dracula-cullen-400 hover:border-white mr-4">
                         Contact Me
                     </a>
+                    <a href="mailto:gmail@advaithca.com" className="lg:mx-5 block mt-4 lg:inline-block lg:mt-0 text-dracula-cullen border-dracula-buffy hover:text-dracula-cullen-400 hover:border-white mr-4">
+                        gmail@advaithca.com (beta)
+                    </a>
                 </div>
             </div>
             <div className={"flex items-center flex-shrink-2 text-white space-x-8 lg:flex lg:items-center lg:w-auto" + (navbarOpen ? "" : " hidden")}>
@@ -47,6 +50,11 @@ export default function NavBar(){
                 <a href="https://linkedin.com/in/advaith-ca" className="block mt-4 lg:inline-block lg:mt-0 hover:shadow-dracula-pink-600" target="_blank" rel="noreferrer">
                     <button>
                         <img src={linkedinLogo} style={{'width':'30px'}} alt="linkedin"/>
+                    </button>
+                </a>
+                <a href="https://www.instagram.com/unrealadvaith/" className="block mt-4 lg:inline-block lg:mt-0 hover:shadow-dracula-pink-600" target="_blank" rel="noreferrer">
+                    <button>
+                        <img src={instagramLogo} style={{'width':'30px'}} alt="instagram"/>
                     </button>
                 </a>
             </div>
