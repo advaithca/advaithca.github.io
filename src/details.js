@@ -32,10 +32,10 @@ const education = [
 const workExperience = [
     {
         'position': 'Project Intern',
-        'company': 'iHub-Data, IIIT-H',
+        'company': 'INAI, IIIT-H',
         'from': 'October 2022',
-        'to': 'Present',
-        'description': "Working as a Project Intern in machine learning projects. Creating and training machine learning models, and RESTful APIs. Also working on automation of Report Creation and Visualization of data."
+        'to': 'March 2024',
+        'description': "Worked as an intern. Retrained an AI based helmet detection model, assisted with developing the Roadex website. Independently created an analytics platform for IRASTE Telangana project. "
     },
     {
         'position': 'Intern',

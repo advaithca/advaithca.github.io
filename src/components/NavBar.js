@@ -39,7 +39,7 @@ export default function NavBar(){
                         Contact Me
                     </a>
                     <a href="mailto:gmail@advaithca.com" className="lg:mx-5 block mt-4 lg:inline-block lg:mt-0 text-dracula-cullen border-dracula-buffy hover:text-dracula-cullen-400 hover:border-white mr-4">
-                        gmail@advaithca.com (beta)
+                        gmail@advaithca.com
                     </a>
                 </div>
             </div>
