@@ -1,7 +1,7 @@
 const education = [
     {
         'name': 'Master of Technology in Remote Sensing and GIS',
-        'institution': 'Indian Institute of Remote Sensing',
+        'institution': 'Indian Institute of Remote Sensing, affl. Andhra University',
         'from': 'August 2023',
         'to': 'June 2025',
         'remarks': 'Specializing in Satellite Image Analysis and Photogrammetry'
