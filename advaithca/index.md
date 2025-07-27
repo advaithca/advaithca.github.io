@@ -3,7 +3,7 @@ layout: layout.njk
 title: Advaith C A
 ---
 
-<img src="/images/logo.png" alt="Advaith" width="100%"/>
+<img src="./images/logo.png" alt="Advaith" width="100%"/>
 
 ## About Me
 
