@@ -138,4 +138,4 @@ National Rank: **4**
 🔗 [Website](https://www.advaithca.com) • 
 📧 [Email](mailto:advaith29042002@gmail.com) • 
 💻 [GitHub](https://github.com/advaithca) • 
-💼 [LinkedIn](https://www.linkedin.com/in/advaithca)
+💼 [LinkedIn](https://www.linkedin.com/in/advaith-ca)
