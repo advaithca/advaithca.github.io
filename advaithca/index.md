@@ -76,7 +76,7 @@ A. Raj, M. Sudheep Elayidom, T.B. Abhinav, **C.A. Advaith**, and D. Amrutha.
 I’ve contributed to projects across diverse domains such as Marine Sciences, Geosciences, Agriculture, and Forestry. These included:
 
 - Automating graphing and GPS data cleaning
-- Interpreting radiative transfer models (R), hyperspectral fusion pipelines (Python)
+- Interpreting radiative transfer model pipelines (R), hyperspectral fusion pipelines (Python)
 - Co-registration of multi-sensor imagery
 - DEM generation using satellite LiDAR + deep learning (GANs)
 - Fusion of spy satellite, SAR, DEM, and optical imagery
