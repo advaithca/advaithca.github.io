@@ -19,16 +19,16 @@ I'm from Kerala, I work at some place in Delhi, I've studied in Dehradun, I've w
 
 - Remote Sensing & GIS, Satellite Image Analysis.
 - Deep Learning, Machine Learning, AI.
-- Scripting (Python, Bash, Other Languages, kinda language Agnostic at this point)
-- Web (React, Django – support skill)
+- Scripting (Python, Bash, Other Languages, kinda language Agnostic at this point).
+- Web (React, Django – support skill).
+- Everything else under the sun.
 
 ---
 
 ## Professional Qualifications
 
 - *Geospatial Developer*, Silver Touch Technologies. (July 2025 -- *Present*)
-  - I worked on ML Projects.
-  - I automated some data processing workflows and created a dashboard.
+  - I work on solving problems, developing solutions with all that I've been given.
 - *Project Intern*, INAI, IIIT-H (October 2022 -- March 2024)
   - I worked on ML Projects.
   - I automated some data processing workflows and created a dashboard.
@@ -82,16 +82,20 @@ I’ve contributed to projects across diverse domains such as Marine Sciences, G
 - Fusion of spy satellite, SAR, DEM, and optical imagery
 - Assisted peers out of curiosity and technical passion — not for academic credit (*Though It has been acknowledged by a grateful few.*)
 
-*I've also worked in one project as a freelancer, It did not end well, Taught me a lot about boundaries, ethics and burnout.*
+*I've also worked in one project as a freelancer, It did not end well, Taught me a lot about boundaries, ethics and burnout. Yeah, I need to work on being diplomatic*
 
 ---
 
 ## Hackathons, Presentations & Events
 
+**GIFTS Summit 2025**, Symbiosis International University (2025)  
+🏆 *Oral Presentation* – Presented my research on the topic **Deep Learning based Land Use Land Cover classification on Multi-Sensor Remote Sensing Data**.  
+Organized by Symbiosis International University, Lavale.  
+
 **IEEE GRSS Science Day Hackathon**, IIT Indore (2025)  
 🏆 *First Runner-Up* – Problem Statement PS3: Coregistration of Multispectral Imagery  
 Participated as part of team *Reality Warpers*.  
-Organized by IEEE GRSS SBC, IIT Indore, in collaboration with IEEE GRSS MP Chapter.
+Organized by IEEE GRSS SBC, IIT Indore, in collaboration with IEEE GRSS MP Chapter.  
 
 **Mapathon 2024**, IIRS & Indian Society of Remote Sensing (Nov 2024)  
 Mapped change detection in a small region of Delhi using medium-resolution imagery.  
