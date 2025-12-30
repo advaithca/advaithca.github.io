@@ -60,14 +60,31 @@ I'm from Kerala, I work at some place in Delhi, I've studied in Dehradun, I've w
 
 ## Publications
 
-**Spectrophotometric Evaluation of Lunar Catharina Crater**  
-Padinharethodi, A. K. and Kumar, S. and **Advaith C A**.  
-*ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2025*  
-[Read Paper](https://isprs-annals.copernicus.org/articles/X-G-2025/607/2025/)
+### Deep Learning Based Land Use Land Cover Classification on Multi-Sensor Remote Sensing Data
 
-**Text Summarization using Self-Organizing Maps**  
-A. Raj, M. Sudheep Elayidom, T.B. Abhinav, **C.A. Advaith**, and D. Amrutha.  
-*International Journal of Advance Computational Engineering and Networking (IJACEN), 2022*
+**Advaith C A**, S. Agrawal, V. Kumar, S. Kumar, P. S. Tiwari  
+*ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences*,  
+Volume **X-5/W2-2025**, 2025, pp. 7–14  
+
+🔗 [Paper](https://isprs-annals.copernicus.org/articles/X-5-W2-2025/7/2025/)  
+📄 DOI: [10.5194/isprs-annals-X-5-W2-2025-7-2025](https://doi.org/10.5194/isprs-annals-X-5-W2-2025-7-2025)
+
+### A Spectrophotometric Evaluation of Lunar Catharina Crater Using Support Vector Regression Analysis for FeO and TiO₂ Estimations
+
+Padinharethodi A. K., Kumar S., **Advaith C A**  
+*ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences*,  
+Volume **X-G-2025**, 2025, pp. 607–612  
+
+🔗 [Paper](https://isprs-annals.copernicus.org/articles/X-G-2025/607/2025/)  
+📄 DOI: [10.5194/isprs-annals-X-G-2025-607-2025](https://doi.org/10.5194/isprs-annals-X-G-2025-607-2025)
+
+### Design and Implementation of an Efficient Text Summarization Method Using Self-Organizing Maps
+
+Asha Raj, Sudheep Elayidom M, Abhinav T B, **Advaith C A**, Amrutha Dinesh  
+*International Journal of Advance Computational Engineering and Networking (IJACEN)*,  
+Volume **10**, Issue **10**, 2022, pp. 48–53  
+
+🔗 [Paper](https://www.iraj.in/journal/journal_file/journal_pdf/3-864-167214292148-53.pdf)  
 
 ---
 
