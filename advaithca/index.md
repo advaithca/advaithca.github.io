@@ -28,7 +28,8 @@ I'm from Kerala, I work at some place in Delhi, I've studied in Dehradun, I've w
 ## Professional Qualifications
 
 - *Geospatial Developer*, Silver Touch Technologies. (July 2025 -- *Present*)
-  - I work on solving problems, developing solutions with all that I've been given.
+  - Solving problems in the geospatial domain, through efficient, scalable code.
+  - Applying the power of mathematics to intelligently extract information from real world data.
 - *Project Intern*, INAI, IIIT-H (October 2022 -- March 2024)
   - I worked on ML Projects.
   - I automated some data processing workflows and created a dashboard.
